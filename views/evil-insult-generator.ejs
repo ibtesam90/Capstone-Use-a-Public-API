@@ -1,7 +1,11 @@
 <%- include("partials/header.ejs") %>
 <div class="container">
     <h1 class="heading-color">This is Evil Insult Generator API</h1>
-    <p><%= createdby %></p>
-    <p><%= insult %></p>
+    <p>The API does not have any authentication required. Just refresh the page to get a new insult. 🤪 </p>
+</div>
+
+<div class="container">
+    <p><b>Author:</b> <%= createdby %></p>
+    <p><b>Insult:</b> <%= insult %></p>
 </div>
 <%- include("partials/footer.ejs") %>
